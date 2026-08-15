@@ -5,6 +5,8 @@ manifest:
     - name: cormoran
       url-base: https://github.com/cormoran
     # 既存のリモートはそのまま維持
+    - name: takamaru-fpv  # <-- Battery level smoothing
+      url-base: https://github.com/takamaru-fpv
   projects:
 #    - name: zmk
 #      remote: zmkfirmware
@@ -15,6 +17,7 @@ manifest:
     - name: zmk
       remote: cormoran
 #      revision: v0.3-branch+dya
+      revision: e5c9b6915b56801193e359dd9bad4a167ce0d1b8
       revision: main
       import: app/west.yml
 
