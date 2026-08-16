@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-// #include <physical_layouts.dtsi>
-#include <dt-bindings/zmk/physical_layouts.h>
+#include <physical_layouts.dtsi>
+// #include <dt-bindings/zmk/physical_layouts.h>
 
 / {
     totem_physical_layout: totem_physical_layout {
