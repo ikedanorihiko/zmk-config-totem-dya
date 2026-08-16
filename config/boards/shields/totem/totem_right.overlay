@@ -6,6 +6,8 @@
 
 #include "totem.dtsi"
 
+#include <behaviors/battery_history_request.dtsi>
+
 &default_transform {
     col-offset = <5>;
 };
