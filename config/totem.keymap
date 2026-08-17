@@ -65,6 +65,16 @@
             bindings = <&kp RA(GRAVE)>;
             key-positions = <18 11>;
         };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <37 29>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <37 30>;
+        };
     };
 
     macros {
@@ -156,8 +166,8 @@
 
             bindings = <
           &kp ESC         &none             &none             &none              &none                &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-          &kp HOME        &kp LG(LC(LEFT))  &kp LG(LS(LEFT))  &kp LG(LC(RIGHT))  &kp END              &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
-&mkp MB1  &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp COLON
+          &kp HOME        &kp LG(LC(LEFT))  &kp LG(LS(LEFT))  &kp LG(LC(RIGHT))  &kp END              &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
+&mkp MB1  &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp COLON
                                             &trans            &trans             &trans               &kp F10       &kp MINUS     &kp N0
             >;
         };
