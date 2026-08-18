@@ -34,7 +34,14 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
-      
+
+    # or latest commit hash
+    # Below setting required to use unofficial studio custom RPC feature
+    # Persistent settings storage backend used by this module
+    - name: zmk-feature-custom-settings
+      remote: cormoran
+      revision: main
+
 
   self:
     path: config
