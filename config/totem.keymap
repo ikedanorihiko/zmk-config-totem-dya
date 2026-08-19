@@ -75,6 +75,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <37 30>;
         };
+
+        control {
+            bindings = <&kp RCTRL>;
+            key-positions = <17 18>;
+        };
+
+        command {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <17 16>;
+        };
     };
 
     macros {
